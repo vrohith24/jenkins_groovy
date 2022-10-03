@@ -1,6 +1,6 @@
 #!/usr/bin/env groovy
 
-def call(String name = 'User') {
+def call() {
 		echo "Welcome, ${name}."
 		echo "${pwd}"
 }
