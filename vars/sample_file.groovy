@@ -1,6 +1,6 @@
 #!/usr/bin/env groovy
-import groovy.json.JsonSlurper
 
-def call() {
-    echo "$pwd"
+def call(String name = 'User') {
+		echo "Welcome, ${name}."
+        echo "${pwd}"
 }
