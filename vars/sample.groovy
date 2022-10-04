@@ -1,7 +1,6 @@
 #!/usr/bin/env groovy
 
-def call(String Name = 'User') {
-		echo "Welcome, ${User}"
+def call() {
 		echo "${pwd}"
 		def Hello = sh ("ls -l")
 		return Hello
